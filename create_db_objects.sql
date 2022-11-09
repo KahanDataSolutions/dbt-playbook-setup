@@ -17,7 +17,7 @@ create table raw_tech_store.product (
   id int,
   name varchar null,
   category varchar null,
-  price number(18,2) null,
+  price numeric(18,2) null,
   currency varchar null 
 );
 
